@@ -1,0 +1,68 @@
+.plans {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap:1rem;
+    margin: 0 auto;
+}
+.plans > div {
+    background-color:#fafafa;
+    padding:1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(175, 174, 174);
+}
+
+.plan{
+    display:block;
+    font-family: 'Montserrat',sans-serif;
+}
+.plan h2{
+    color:#43a047;
+}
+.plan h3{
+    color:#43a047;
+}
+
+input{
+    text-align: center;
+    background-color:#002f6c;
+    padding:1%;
+    color:#fff;
+    border:1px solid;
+    border-radius: 1em;
+    font-family: 'Montserrat',sans-serif;
+    text-align:center;
+    width:60%;
+    font-size: 20px;
+    margin:0 auto;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-size: 10px;
+    padding:5px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+body {
+    margin: 0;
+    background-color: white;
+}
+.plan ul {
+    margin-bottom: 1rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+  }
+.toolbar {
+    display: flex;
+    background-color:#002f6c;
+    margin-bottom: 5rem;
+}
+
+.grid-container {
+    display: grid;
+}

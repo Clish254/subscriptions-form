@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="toolbar">
+      <ul>
+          <li class="logo"><h1><b>Team gold</b></h1></li>
+      </ul>
+    </div>   
+    <div class="card">
+    <form action="http://localhost:3000/api/subscribers" method="post">
+        <ul>
+            <li>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="user_name" required>
+            </li>
+             <li>
+               <label for="mail">E-mail:</label><br>
+               <input type="email" id="mail" name="user_email" required>
+             </li>
+             <li>
+                <label for="plan-select">Choose a plan:</label><br>
+                <select name="plan" id="plan-select">
+                    <option value="Free">Free</option>
+                    <option value="Paid">Professional</option>
+                    <option value="Premium">Premium</option>
+                </select>                            
+             </li>
+             <li class="button">
+                <button type="submit">Subscribe</button>
+            </li>
+        </ul>
+    </form>
+    </div>
+</body>
+</html>
